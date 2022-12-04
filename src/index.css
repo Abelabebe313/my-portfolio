@@ -10,6 +10,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/*Button*/
 .btn {
   font-size: 16px;
   padding:0.35em 1.2em;
@@ -24,6 +25,7 @@ code {
   color: #CD8905;
   border: 2px solid #E5E5E5;
 }
+
 .home{
   background-image:url('assets/background.jpg');
   height: 100vh;
@@ -55,6 +57,7 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-left: 16%;
 }
 .home-container .left {
   margin-top: 4%;
@@ -87,4 +90,20 @@ code {
   max-width: 300px;
   height: auto;
   border-radius: 50%;
+}
+
+/*About Component*/
+.About-container{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.About-container .about-left{
+  width: 40%;
+}
+.About-container .about-left p{
+  color: #E5E5E5;
 }
