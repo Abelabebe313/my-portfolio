@@ -1,3 +1,4 @@
+import myPhoto from '../assets/myPhoto.jpg'
 const Home = props => {
   return (
     <div className="home">
@@ -16,7 +17,7 @@ const Home = props => {
                <p className="field">Front-End/ Mobile App Developer </p>
            </div>
            <div className="right">
-
+               <img src={<myPhoto/>}/>
            </div>
        </div>
     </div>
