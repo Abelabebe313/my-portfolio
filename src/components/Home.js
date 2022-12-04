@@ -7,7 +7,7 @@ const Home = props => {
             <li>About Me</li>
             <li>Skills</li>
             <li>Portfolios</li>
-            <li>Contact Me</li>
+            <li>Contact</li>
           </ul>
        </div>
        <div className="home-container">
@@ -15,9 +15,12 @@ const Home = props => {
                <p className="greeting">Hello, I am</p>
                <p className="name">Abel Abebe</p>
                <p className="field">Front-End/ Mobile App Developer </p>
+               <button className="btn">Contact Me</button>
            </div>
            <div className="right">
-               <img src={<myPhoto/>}/>
+             <div className='profilePhoto'>
+                 <img src={myPhoto}/>
+             </div>
            </div>
        </div>
     </div>
